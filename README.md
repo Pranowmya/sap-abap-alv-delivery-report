@@ -35,11 +35,6 @@ To build an interactive ALV report that:
 
 ---
 
-## 📤 Output
-<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/08667b71-d9b8-4790-aa50-13fa228dcf09" />
-
----
-
 ## 🔄 Process Flow
 1. User enters delivery number(s)  
 2. System fetches header data from LIKP  
@@ -64,27 +59,13 @@ To build an interactive ALV report that:
 
 | VBELN        |
 |-------------|
-| 80000012    |
+| 00001402    |
 
 ---
 
 ## 📊 Sample Output
 
-### Header ALV
-| Delivery | Type | Customer | GI Date   | Shipping Point |
-|----------|------|----------|-----------|----------------|
-| 80000012 | LF   | 100001   | 2024-04-15| SP01           |
-
-👉 Click on **80000012**
-
----
-
-### Item ALV
-| Delivery | Item | Material | Quantity | Unit |
-|----------|------|----------|----------|------|
-| 80000012 | 10   | MAT001   | 50       | EA   |
-| 80000012 | 20   | MAT002   | 30       | EA   |
-
+<img width="250" height="200" alt="image" src="https://github.com/user-attachments/assets/08667b71-d9b8-4790-aa50-13fa228dcf09" />
 ---
 
 ## 🧰 Technologies Used
@@ -95,4 +76,13 @@ To build an interactive ALV report that:
 
 ---
 
-## 🏗️ Project Structure
+## 📈 Future Enhancements
+- OO ALV (CL_GUI_ALV_GRID)  
+- Filtering and sorting options  
+- Excel download functionality  
+- Integration with SmartForms  
+
+---
+
+## 🏷️ Tags
+sap-abap, alv-report, sap-development, logistics, erp, abap, sap-project
