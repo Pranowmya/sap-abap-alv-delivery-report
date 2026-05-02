@@ -36,43 +36,7 @@ To build an interactive ALV report that:
 ---
 
 ## 📤 Output
-
-### 🔹 Initial Output (Header ALV)
-Displays delivery header details:
-- Delivery Number  
-- Delivery Type  
-- Customer  
-- GI Date  
-- Shipping Point  
-
-👉 The **Delivery Number (VBELN)** is clickable (Hotspot)
-
----
-
-### 🔹 Drill-Down Output (Item ALV)
-When user clicks on a Delivery Number:
-- Item details are displayed in a new ALV
-
-Fields:
-- Delivery Number  
-- Item Number  
-- Material Number  
-- Quantity  
-- Unit  
-
----
-
-## 📺 Output Location
-
-The output is displayed in:
-
-1. SAP GUI  
-2. Transaction: `SE38`  
-3. Enter program: `ZMP03_ALV`  
-4. Execute (F8)  
-
-➡️ First ALV Grid (Header Data) is displayed  
-➡️ Click on Delivery Number to view Item ALV  
+<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/08667b71-d9b8-4790-aa50-13fa228dcf09" />
 
 ---
 
